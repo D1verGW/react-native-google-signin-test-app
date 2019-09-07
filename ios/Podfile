@@ -27,7 +27,6 @@ target 'rnsigntest' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'RNGoogleSignin', :path => '../node_modules/react-native-google-signin'
   pod 'GoogleSignIn', '~> 5.0.0'
 
   target 'rnsigntestTests' do
